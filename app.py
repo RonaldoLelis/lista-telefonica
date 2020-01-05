@@ -23,6 +23,10 @@ def register():
 def new_post():
     return ''
 
+@app.route("/teste")
+def teste():
+    return '<h1>Página de teste!!!</h1>'
+
 
 
 if __name__ == '__main__':
